@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    padding: 20px 0px;
+    background-color: #272727;
+    counter-reset: codelines;
+}
+
+h3 {
+    text-align: center;
+    color: #00d742;
+    margin-bottom: 20px;
+}
+
+
+#normal-text,
+#ironic-text {
+    display: block;
+    width: 60%;
+    margin: auto;
+    color: white;
+    background-color:darkgrey;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+}
+
+#convertButton {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+}
